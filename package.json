@@ -1,0 +1,7 @@
+{
+  "name": "travel-handbook",
+  "private": true,
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}

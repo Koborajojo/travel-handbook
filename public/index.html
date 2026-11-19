@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#2b1a63">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>北陆 2027 · 1/20–1/26 旅行手册</title>
+<style>
+:root{--ink:#12141c;--mut:#5b6472;--line:#e4e6ef;--accent:#5b3fd8;--blue:#0069b4;--green:#0b7a52;--warn:#bf3b2c;--bg:#f5f6fa}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.62 -apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;padding-bottom:40px}
+.hero{background:linear-gradient(150deg,#241352 0%,#5b3fd8 100%);color:#fff;padding:20px 18px 18px;border-radius:0 0 22px 22px}
+.hero h1{margin:0;font-size:19px;letter-spacing:.02em}
+.hero .sub{margin-top:5px;font-size:12.5px;opacity:.85;line-height:1.5}
+nav{position:sticky;top:0;z-index:30;display:flex;gap:6px;overflow-x:auto;padding:9px 14px;background:rgba(245,246,250,.94);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);scrollbar-width:none}
+nav::-webkit-scrollbar{display:none}
+nav a{flex:0 0 auto;font-size:13px;padding:6px 12px;border-radius:999px;background:#fff;border:1px solid var(--line);color:var(--ink);text-decoration:none}
+nav a.on{background:var(--accent);border-color:var(--accent);color:#fff}
+main{max-width:760px;margin:0 auto;padding:0 13px}
+section{margin-top:18px;scroll-margin-top:56px}
+h2{font-size:15px;margin:0 0 10px;color:var(--accent);letter-spacing:.02em}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px 15px;box-shadow:0 1px 2px rgba(18,20,28,.045)}
+.watch{background:linear-gradient(160deg,#1e1147 0%,#4a2fc0 100%);color:#fff;border:none;padding:18px 16px 15px}
+.watch .lb{font-size:11.5px;letter-spacing:.14em;opacity:.72}
+.watch .nx{margin-top:7px;font-size:19px;font-weight:700;line-height:1.35}
+.watch .meta{margin-top:4px;font-size:12.5px;opacity:.82}
+.cd{display:flex;gap:8px;margin-top:15px}
+.cd .u{flex:1;background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.18);border-radius:12px;padding:7px 0 6px;text-align:center}
+.cd .n{display:block;font-size:25px;font-weight:700;line-height:1.12;font-variant-numeric:tabular-nums}
+.cd .t{display:block;font-size:10.5px;opacity:.7;letter-spacing:.12em;margin-top:2px}
+.cd.min .n{font-size:20px}
+.watch .foot{margin-top:12px;padding-top:11px;border-top:1px solid rgba(255,255,255,.16);font-size:12.5px;display:flex;gap:10px;flex-wrap:wrap}
+.watch .foot b{font-weight:600}
+.mapwrap{padding:6px 2px 2px}.mapwrap svg{width:100%;height:auto;display:block}
+.lg{display:flex;flex-wrap:wrap;gap:11px;margin-top:6px;padding-top:11px;border-top:1px dashed var(--line);font-size:12px;color:var(--mut)}
+.lg i{display:inline-block;width:14px;height:3px;border-radius:2px;margin-right:5px;vertical-align:3px}
+.bk{padding:12px 14px}.bk+.bk{margin-top:9px}
+.bk .ti{font-size:14.5px;font-weight:700;display:flex;align-items:baseline;gap:7px;flex-wrap:wrap}
+.bk .ti .k{font-size:10.5px;font-weight:600;letter-spacing:.06em;padding:2px 7px;border-radius:6px;background:#eef0ff;color:#3b2bb5}
+.bk dl{margin:8px 0 0;display:grid;grid-template-columns:60px 1fr;gap:4px 9px;font-size:13.3px}
+.bk dt{color:var(--mut);font-size:12px}.bk dd{margin:0}
+.bk a{color:var(--blue);text-decoration:none;border-bottom:1px solid #cfe4f5}
+.hd{display:flex;align-items:baseline;gap:8px;border-bottom:1px dashed var(--line);padding-bottom:9px;margin-bottom:10px}
+.hd .d{font-size:19px;font-weight:700;font-variant-numeric:tabular-nums}
+.hd .w{font-size:12.5px;color:var(--mut)}
+.hd .r{margin-left:auto;text-align:right;font-size:12px;color:var(--accent);font-weight:600;line-height:1.35}
+ol.tl{list-style:none;margin:0;padding:0}
+ol.tl li{display:grid;grid-template-columns:56px 1fr;gap:9px;padding:5px 0;border-top:1px solid #f4f5fa}
+ol.tl li:first-child{border-top:none}
+ol.tl time{font-variant-numeric:tabular-nums;font-weight:700;font-size:13px;color:var(--blue);padding-top:2px}
+ol.tl .t{font-size:14.5px}
+.tag{display:inline-block;font-size:10.5px;padding:1px 6px;border-radius:6px;background:#fff4e5;color:#9a5600;border:1px solid #ffe2bb;margin-left:5px;white-space:nowrap;vertical-align:1px}
+.tag.ok{background:#e9f7ef;border-color:#c6ecd9;color:#0b6b45}
+.tag.red{background:#fdeceb;border-color:#f8cdc8;color:#a5342a}
+.meals{display:flex;flex-wrap:wrap;gap:7px;margin-top:11px}
+.pill{font-size:12.5px;padding:5px 10px;border-radius:10px;background:#eef5ff;border:1px solid #d3e6ff;color:#0a4a7c}
+.pill.g{background:#edfaf3;border-color:#c9ecd9;color:#0a6b46}
+.pill .lb{opacity:.6;margin-right:4px}
+ul.note{margin:11px 0 0;padding:9px 0 0;list-style:none;border-top:1px dashed var(--line)}
+ul.note li{font-size:13.3px;color:var(--mut);padding-left:15px;position:relative;margin:5px 0}
+ul.note li:before{content:"–";position:absolute;left:1px;color:#b9bece}
+ul.note li.w:before{content:"⚠";color:var(--warn)}
+ul.note li.w{color:#8c3327}
+.today{box-shadow:0 0 0 2px var(--accent),0 1px 2px rgba(18,20,28,.05)}
+ol.td{list-style:none;margin:0;padding:0}
+ol.td li{padding:11px 0;border-top:1px solid #f4f5fa;font-size:14px}
+ol.td li:first-child{border-top:none}
+ol.td .wh{display:block;font-size:11.5px;color:var(--warn);font-weight:600;margin-bottom:2px}
+.foot2{max-width:760px;margin:24px auto 0;padding:0 14px;font-size:12px;color:#9aa1b0;text-align:center;line-height:1.7}
+.foot2 b{color:#6b7280}
+@media print{nav{display:none}body{background:#fff}.card{box-shadow:none;break-inside:avoid}}
+</style>
+<style>
+:root{--ink:#241F1B;--mut:#8A7E71;--line:#E9E0D2;--accent:#B34A22;--blue:#A06A3F;--green:#5F7D55;--warn:#B3261E;--bg:#FAF7F2}
+body{background:var(--bg);color:var(--ink)}
+.hero{background:none;color:var(--ink);border-radius:0;padding:22px 18px 15px;border-bottom:1px solid var(--line)}
+.hero h1{margin:0;font:700 21.5px/1.4 "Songti SC","Noto Serif SC","Source Han Serif SC",STSong,SimSun,serif;letter-spacing:.01em}
+.hero .sub{margin-top:7px;font-size:12.5px;line-height:1.6;color:var(--mut);opacity:1}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.chip{font-size:12px;line-height:1.5;border:1px solid var(--line);background:#FFFDFA;border-radius:999px;padding:4px 10px;color:#5E5348}
+.chip.warn{border-color:#EBC9B8;background:#FDF3EC;color:#A8451C}
+nav{background:rgba(250,247,242,.95);border-bottom:1px solid var(--line);padding:9px 13px;gap:7px}
+nav a{background:#FFFDFA;border:1px solid var(--line);color:#5E5348;font-size:12.5px;padding:6px 13px}
+nav a.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.card{background:#FFFDFA;border:1px solid var(--line);border-radius:14px;box-shadow:none}
+h2{font-family:"Songti SC","Noto Serif SC",STSong,SimSun,serif;font-size:17px;font-weight:700;color:var(--ink);letter-spacing:.01em}
+#map h2:before{content:"🗺 "}#conf h2:before{content:"✈ "}#days h2:before{content:"📖 "}#todo h2:before{content:"✅ "}
+.watch{background:#FFFDFA;color:var(--ink);border:1px solid #E7D9C9;border-radius:14px;padding:16px 15px 13px}
+.watch .lb{color:var(--accent);font-size:11px;letter-spacing:.16em;opacity:1;font-weight:600}
+.watch .lb:before{content:"●";font-size:8px;vertical-align:2px;margin-right:5px}
+.watch .nx{font-family:"Songti SC","Noto Serif SC",STSong,SimSun,serif;font-size:21px;color:var(--ink)}
+.watch .meta{color:var(--mut);font-size:12.5px}
+.cd{display:flex;align-items:baseline;gap:0;margin-top:11px;flex-wrap:wrap}
+.cd .u{flex:0 0 auto;display:inline;background:none;border:none;padding:0;border-radius:0;text-align:left}
+.cd .n{display:inline;font-size:30px;font-weight:700;color:#C0501F;font-variant-numeric:tabular-nums;letter-spacing:.01em}
+.cd .t{display:inline;font-size:12.5px;color:var(--mut);margin:0 9px 0 1px;letter-spacing:0}
+.cd.min .n{font-size:26px}
+.cd:after{content:"后";font-size:12.5px;color:var(--mut)}
+.watch .foot{margin-top:11px;padding-top:10px;border-top:1px dashed #EADFD2;font-size:12.5px;color:#6B6156}
+.watch .foot b{color:var(--ink)}
+.cur{margin-top:10px;padding-top:10px;border-top:1px dashed #EADFD2;display:flex;align-items:center;gap:8px}
+.curb{background:#B3261E;color:#fff;font-size:10.5px;padding:2px 8px;border-radius:999px;font-weight:600;white-space:nowrap}
+.curt{flex:1;color:#4A423A;font-size:12.5px;line-height:1.45}
+.go{color:var(--accent);text-decoration:none;font-size:12.5px;white-space:nowrap}
+.mapwrap svg rect{fill:#FBF7EF}
+.hd{background:none}
+.hd .d{font-family:"Songti SC","Noto Serif SC",STSong,SimSun,serif;font-weight:700}
+.hd .r{color:var(--accent)}
+ol.tl time{color:#A06A3F}
+.pill{background:#F7F2E9;border-color:#E8DCCB;color:#6B5340}
+.pill.g{background:#F1F4EC;border-color:#D8E0CC;color:#4F6B4A}
+ul.note li{color:var(--mut)}
+ul.note li.w{color:#A2432A}
+.tag{background:#FCF3E7;border-color:#EBD3B6;color:#A15A17}
+.tag.ok{background:#EEF3EA;border-color:#D3E0CB;color:#4F6B4A}
+.tag.red{background:#FBEDEA;border-color:#EFCFC8;color:#A5342A}
+.bk{border-top:1px solid #F2EADD;padding-top:11px}
+.bk:first-child{border-top:none;padding-top:0}
+.bk .ti{font-family:"Songti SC","Noto Serif SC",STSong,SimSun,serif;font-size:15px}
+.bk .ti .k{background:#F6EFE6;color:#8A5A2B}
+.bk a{color:#9A6A3F;border-bottom-color:#E6D3BC}
+.today{box-shadow:0 0 0 2px var(--accent)}
+ol.td .wh{color:#B3261E;font-weight:600}
+.foot2{color:#A79A8B}
+</style>
+</head>
+<body>
+<header class="hero">
+  <h1>🏔 北陆雪季温泉之旅</h1>
+  <div class="sub">2027.1.20（周三）— 1.26（周二）· 2 人 · 上海 → 小松落地 / 富山返程 · 金泽 3 晚 + 福地温泉 1 晚 + 富山 2 晚</div>
+  <div class="chips">
+    <span class="chip">✈️ 往返机票已出票</span>
+    <span class="chip">🚗 送机专车已接单</span>
+    <span class="chip">🏨 酒店 3 家已订</span>
+    <span class="chip warn">⚠️ 富山待改 2 晚</span>
+    <span class="chip warn">⚠️ 巴士票 12/23 开卖</span>
+  </div>
+</header>
+<nav id="nav"></nav>
+<main id="app"></main>
+<div class="foot2"><b>应急</b> 外交部领保 +86-10-12308 &nbsp;·&nbsp; 日本 报警 110 / 火警救护 119<br>机票订单 1128152025972419 &nbsp;·&nbsp; 酒店可在携程原单免费修改<br>最后更新 2026-11-19</div>
+<script>
+var T={
+ days:[
+  {id:"d1",date:"1/20",wd:"周三",iso:"2027-01-20",place:"金泽",stay:"金泽凯悦嘉寓",route:"东京转机 → 金泽",
+   items:[["05:01","专车 绿波家园 11 号楼 → 浦东T2","已订","2027-01-20T05:01:00+08:00"],
+    ["08:35","NH972 浦东T2 → 羽田T3 12:20（公务舱·含餐）","已订","2027-01-20T08:35:00+09:00"],
+    ["12:20","羽田T3 入境审查、取行李",0,"2027-01-20T12:20:00+09:00"],
+    ["13:40","全日空国内柜台托运大箱子 → 进东京市区",0,"2027-01-20T13:40:00+09:00"],
+    ["14:40","KIMUKATSU 恵比寿本店 午餐",0,"2027-01-20T14:40:00+09:00"],
+    ["17:20","宮川本廛 银座松屋店 晚餐",0,"2027-01-20T17:20:00+09:00"],
+    ["18:30","银座 → 羽田T2（约 30 分）",0,"2027-01-20T18:30:00+09:00"],
+    ["20:35","NH759 羽田T2 → 小松 21:40（经济舱）","已订","2027-01-20T20:35:00+09:00"],
+    ["21:55","小松机场巴士 → 金泽站 约 22:40",0,"2027-01-20T21:55:00+09:00"]],
+   lunch:"KIMUKATSU 恵比寿本店（金炸猪排）",dinner:"宮川本廛 银座松屋店（鳗鱼）",
+   notes:["入境在 T3 一次办完；东京→小松是国内段，落地即走","大箱子在 T3 全日空国内柜台托运，进市区只带随身",
+    "w:21:55 是当天最后一班机场巴士，错过打车约 40 分","备选：NH759 取消 → 东京→金泽 新干线约 2.5h，提前给酒店留话"]},
+  {id:"d2",date:"1/21",wd:"周四",iso:"2027-01-21",place:"金泽",stay:"金泽凯悦嘉寓",route:"鱼市 · 金泽市区",
+   items:[["09:00","いきいき魚市 开门（周三休，场内有座位）",0,"2027-01-21T09:00:00+09:00"],
+    ["09:20","买海鲜、商家代加工，早午饭就在市场里吃",0,"2027-01-21T09:20:00+09:00"],
+    ["下午","金泽站周边（百番街／购物）",0,0],
+    ["18:00","kashiwa（地鸡·本格烧酒）",0,"2027-01-21T18:00:00+09:00"]],
+   lunch:"いきいき魚市（现买·代加工）",dinner:"kashiwa（地鸡·本格烧酒）",
+   notes:["鱼市在金泽站约 15 分车程，来回打车","市场里能坐着吃，不用为一家寿司店单跑一趟","1/22 早上还有近江町，海鲜别两天连着塞"]},
+  {id:"d3",date:"1/22",wd:"周五",iso:"2027-01-22",place:"金泽",stay:"金泽凯悦嘉寓",route:"近江町 · 东茶屋街",
+   items:[["08:00","近江町市场 いきいき亭（海鲜丼当早饭）","开门待核","2027-01-22T08:00:00+09:00"],
+    ["上午","东茶屋街（近江町步行约 15 分）",0,0],
+    ["下午","香林坊／片町一带",0,0],
+    ["18:00","morimori寿司（金泽站）",0,"2027-01-22T18:00:00+09:00"]],
+   lunch:"金泽（待定）",dinner:"morimori寿司（金泽站）",
+   notes:["1/22 是轻松日，1/23 一早 8:10 出发，晚上别太晚","morimori 在金泽站内，回酒店顺路"]},
+  {id:"d4",date:"1/23",wd:"周六",iso:"2027-01-23",place:"金泽 → 白川乡 → 高山 → 福地温泉",stay:"元湯孫九郎",route:"转场日",
+   items:[["07:40","退房，步行到金沢駅西口（大箱子交前台宅急便）",0,"2027-01-23T07:40:00+09:00"],
+    ["08:10","金沢駅西口 → 白川郷 09:25（北铁）","提前订","2027-01-23T08:10:00+09:00"],
+    ["09:25","白川乡 合掌造集落（停 1 小时）",0,"2027-01-23T09:25:00+09:00"],
+    ["10:30","白川郷 → 高山 11:20（富山地鉄 0401便）","提前订","2027-01-23T10:30:00+09:00"],
+    ["11:30","丸明 午饭（飞驒牛）",0,"2027-01-23T11:30:00+09:00"],
+    ["12:45","古街／宫川朝市一带",0,"2027-01-23T12:45:00+09:00"],
+    ["13:40","高山濃飛BC → 福地ゆりみ坂 14:50（福地経由·直达）",0,"2027-01-23T13:40:00+09:00"],
+    ["14:50","下车步行即到旅馆",0,"2027-01-23T14:50:00+09:00"]],
+   lunch:"丸明（飞驒牛）",dinner:"旅馆（一泊二食）",
+   notes:["w:两段巴士 2026-12-23 开卖（提前一个月），开卖就订","白川乡只停 1 小时，走一圈刚好，上展望台时间不够",
+    "行李：退房交ヤマト宅急便，着日 1/24、寄 VISCHIO 富山，随身只带过夜包",
+    "元湯孫九郎 入住 15:00–18:00、退房 10:00；巴士停在 HO41 福地ゆりみ坂，下车即到",
+    "w:只有坐「一宝水経由」才在福地温泉口下车，那站要打电话叫馆里来接"]},
+  {id:"d5",date:"1/24",wd:"周日",iso:"2027-01-24",place:"福地温泉 → 高山 → 富山",stay:"VISCHIO 富山",route:"温泉早上 · 高山午饭",
+   items:[["07:30","早饭（旅馆）",0,"2027-01-24T07:30:00+09:00"],
+    ["10:00","退房",0,"2027-01-24T10:00:00+09:00"],
+    ["10:16","福地温泉 → 高山 11:31（直达，不换乘）",0,"2027-01-24T10:16:00+09:00"],
+    ["11:45","味藏天国 午饭（飞驒牛）",0,"2027-01-24T11:45:00+09:00"],
+    ["13:00","高山古街／宫川朝市",0,"2027-01-24T13:00:00+09:00"],
+    ["15:17","ひだ11号 高山 → 富山 16:44",0,"2027-01-24T15:17:00+09:00"],
+    ["17:00","check-in VISCHIO（站前）",0,"2027-01-24T17:00:00+09:00"]],
+   lunch:"味藏天国（飞驒牛）",dinner:"富山（待定）",
+   notes:["想早点到富山可坐 13:17 ひだ7号（14:51 到），但古街只剩 2 小时","前一班 9:16 也行（高山 10:31 到），但 10:00 才退房，10:16 正好",
+    "鮨toyama 已挪到 1/25 17:00：这天到富山已 16:44，卡开门风险大"]},
+  {id:"d6",date:"1/25",wd:"周一",iso:"2027-01-25",place:"庄川峡",stay:"VISCHIO 富山",route:"游船 · 富山站前",
+   items:[["09:20","富山站 → 小牧乘船场",0,"2027-01-25T09:20:00+09:00"],
+    ["10:30","大牧温泉コース ¥3,400（约 1 小时）","现场买","2027-01-25T10:30:00+09:00"],
+    ["11:35","回港",0,"2027-01-25T11:35:00+09:00"],
+    ["12:00","庄川 午饭",0,"2027-01-25T12:00:00+09:00"],
+    ["13:30","回富山",0,"2027-01-25T13:30:00+09:00"],
+    ["14:00","富山站周边购物",0,"2027-01-25T14:00:00+09:00"],
+    ["17:00","鮨toyama（卡开门进）",0,"2027-01-25T17:00:00+09:00"]],
+   lunch:"庄川（待定）",dinner:"鮨toyama（回转寿司）",
+   notes:["w:大牧班次只有 8:30 / 10:30 / 14:30 / 16:00；长崎桥 9:50 / 13:20，没有 12:30 那班","冬期运航 12/1–1/31，2027 年 1 月时刻表尚未公布",
+    "w:17:00 开门就去，寒鰤大腹开门一小时卖完"]},
+  {id:"d7",date:"1/26",wd:"周二",iso:"2027-01-26",place:"富山 → 上海",stay:"退房日",route:"回程",
+   items:[["09:45","退房 → 富山站",0,"2027-01-26T09:45:00+09:00"],
+    ["10:00","富山站 → 富山机场 巴士约 20 分","待核","2027-01-26T10:00:00+09:00"],
+    ["11:45","NH316 富山 → 羽田T2 12:50（经济舱）","已订","2027-01-26T11:45:00+09:00"],
+    ["12:50","羽田T2 中转 5h50（无需重挂行李）",0,"2027-01-26T12:50:00+09:00"],
+    ["18:40","NH971 羽田T2 → 浦东T2 21:25（公务舱·含餐）","已订","2027-01-26T18:40:00+09:00"]],
+   lunch:"羽田机场",dinner:"机上",
+   notes:["w:11:45 起飞，09:45 必须离开酒店","返程行李直挂，羽田 5 小时 50 分可以出关进市区"]}
+ ],
+ conf:[
+  {k:"机票",t:"去程 · 上海 → 小松（1/20）",rows:[
+   ["航班","NH972 浦东T2 08:35 → 羽田T3 12:20（公务舱·含餐）"],
+   ["中转","羽田 8h15；东京→小松是国内段，T3 全日空国内柜台可提前托运大箱子"],
+   ["续飞","NH759 羽田T2 20:35 → 小松 21:40（经济舱·无餐）"],
+   ["订单","1128152025972419（携程）"],["联系","全日空 / 携程 App 内联系"]],tel:""},
+  {k:"机票",t:"回程 · 富山 → 上海（1/26）",rows:[
+   ["航班","NH316 富山 11:45 → 羽田T2 12:50（经济舱·无餐）"],
+   ["中转","羽田 5h50，行李直挂，可出关进市区"],
+   ["续飞","NH971 羽田T2 18:40 → 浦东T2 21:25（公务舱·含餐）"],
+   ["提醒","11:45 起飞，09:45 必须离开酒店"]],tel:""},
+  {k:"酒店",t:"金泽凯悦嘉寓 · 3 晚（1/20–1/23）",rows:[
+   ["地址","〒920-0031 石川県金沢市広岡 1-5-2"],
+   ["房型","双床一室房（带沙发床）· 有厨房"],
+   ["费用","¥2,832.16 离店后付（不含宿泊税）"],
+   ["入住","15:00 后 / 退房 11:00"],
+   ["要办","退房时问前台能否代发ヤマト宅急便（寄 VISCHIO 富山，着日 1/24）"]],tel:"+81762561235"},
+  {k:"酒店",t:"元湯孫九郎 · 1 晚（1/23）",rows:[
+   ["地址","〒506-1434 岐阜県高山市奥飛騨温泉郷福地温泉"],
+   ["房型","306 号室 角部屋 14 叠 + 和室 · 一泊二食"],
+   ["费用","¥67,000（¥33,500/人）事前决済 · 宿泊税到店付"],
+   ["入住","15:00–18:00 / 退房 10:00"],
+   ["下车","巴士站 HO41 福地ゆりみ坂（旧·福地温泉下），下车步行即到"]],tel:"+81578892231"},
+  {k:"酒店",t:"VISCHIO 富山 · 2 晚（1/24–1/26）",rows:[
+   ["地址","〒930-0001 富山県富山市明輪町 1-231（富山站旁）"],
+   ["房型","高双床间 · 非吸烟"],
+   ["费用","¥2,205.45 + 税费（原 3 晚改 2 晚，差额退回）"],
+   ["状态","等元湯确认邮件后，在携程把订单改成 2 晚"]],tel:"+81764646639"},
+  {k:"用车",t:"送机专车（1/20 05:01）",rows:[
+   ["路线","绿波家园 11 号楼 → 浦东国际机场 T2"],
+   ["车型","舒适型 · 可乘 4 人 · ¥120 用车后付"],
+   ["状态","司机已接单，车牌在携程订单里看"]],tel:""},
+  {k:"门票",t:"船票 / 点灯 / 巴士",rows:[
+   ["庄川峡游船","现场买，大牧温泉コース ¥3,400/人（10:30 班）"],
+   ["白川乡点灯","2027/1/24 票已售完 → 本次不去，改白天看村子"],
+   ["高速巴士","金泽 8:10、白川郷 10:30 两段 2026-12-23 开卖，届时预约"]],tel:""}
+ ],
+ todo:[
+  ["2026-12-23（开卖就订）","金泽駅西口 8:10 → 白川郷（北铁）+ 白川郷 10:30 → 高山（富山地鉄 0401便）"],
+  ["元湯确认邮件到手后","携程把 VISCHIO 富山 3 晚改 2 晚（1/24–1/26），差额退回"],
+  ["出发前 2 周","特急ひだ 高山→富山 15:17 班次核实并订座"],
+  ["出发前 2 周","核 13:40 高山→福地是否仍为福地経由（若改一宝水経由，到福地温泉口要打电话叫馆里接）"],
+  ["出发前 2 周","东京 B 计划：存好东京→金泽新干线末班时间"],
+  ["出发前 1 周","问凯悦嘉寓前台：能否代发宅急便、几点集荷"],
+  ["出发前 1 周","确认庄川峡 2027 年 1 月运航表与大牧 10:30 班"],
+  ["出发前 1 周","核 富山站→富山机场、富山站→小牧乘船场 两段巴士时刻"]
+ ],
+ nights:[["金泽",3],["福地温泉",1],["富山",2]]
+};
+function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")}
+function noteLi(s){var w=/^w:/.test(s);return "<li"+(w?" class=\"w\"":"")+">"+esc(w?s.slice(2):s)+"</li>"}
+function tagOf(s){if(!s)return "";var c=/^(已订)$/.test(s)?"tag ok":(/^(待核|开门待核)$/.test(s)?"tag red":"tag");return "<span class=\""+c+"\">"+esc(s)+"</span>"}
+function dstr(ms){var d=new Date(ms);var p=function(n){return (n<10?"0":"")+n};
+ return (d.getMonth()+1)+"/"+d.getDate()+" "+p(d.getHours())+":"+p(d.getMinutes())}
+
+/* ---------- 1 此刻关注 ---------- */
+var EV=[];
+T.days.forEach(function(d){d.items.forEach(function(it){if(it[3])EV.push({t:Date.parse(it[3]),d:d,it:it})})});
+EV.sort(function(a,b){return a.t-b.t});
+var H=[];
+H.push("<section id=\"now\"><div class=\"card watch\">");
+H.push("<div class=\"lb\">此刻关注</div>");
+H.push("<div class=\"nx\" id=\"nx\">—</div>");
+H.push("<div class=\"meta\" id=\"nxm\"></div>");
+H.push("<div class=\"cd\" id=\"cd\"><div class=\"u\"><b class=\"n\" id=\"u0\">0</b><span class=\"t\">天</span></div><div class=\"u\"><b class=\"n\" id=\"u1\">0</b><span class=\"t\">时</span></div><div class=\"u\"><b class=\"n\" id=\"u2\">0</b><span class=\"t\">分</span></div><div class=\"u\"><b class=\"n\" id=\"u3\">0</b><span class=\"t\">秒</span></div></div>");
+H.push("<div class=\"foot\" id=\"nxw\"></div>");
+H.push("<div class=\"cur\"><span class=\"curb\">当前待办</span><span class=\"curt\">12/23 开卖就抢：金泽 8:10 → 白川郷 + 白川郷 10:30 → 高山</span><a class=\"go\" href=\"#todo\">去清单 →</a></div>");
+H.push("</div></section>");
+
+/* ---------- 2 地图 ---------- */
+var MAP=[[55,180],[84,146],[170,122],[182,166],[210,124],[244,64],[212,30],[204,88]];
+var SEG=[
+ ["#B34A22","M55,180 Q64,166 80,149",1],
+ ["#C77B2B","M88,144 Q126,131 167,122",1],
+ ["#C77B2B","M171,126 Q175,146 180,163",1],
+ ["#C77B2B","M185,163 Q196,142 207,127",1],
+ ["#6E8B5B","M212,128 Q203,150 186,163",1],
+ ["#6E8B5B","M186,161 Q214,110 241,68",0],
+ ["#4E7C9B","M241,62 Q228,37 215,32",1],
+ ["#4E7C9B","M215,35 Q228,46 240,58",1],
+ ["#9A8C7C","M241,70 Q223,80 208,88",1]];
+var LB=[["小松空港",55,197],["金泽",84,137],["白川郷",170,112],["高山",182,183],["福地温泉",234,127],["富山",244,52],["庄川峡",212,19],["富山空港",204,103]];
+var NT=[["宿 3 晚",90,152],["宿 1 晚",228,132],["宿 2 晚",252,72]];
+H.push("<section id=\"map\"><h2>行程总览</h2><div class=\"card mapwrap\">");
+H.push("<svg viewBox=\"0 0 360 245\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"北陆路线图\">");
+H.push("<rect x=\"0\" y=\"0\" width=\"360\" height=\"245\" fill=\"#fcfbf6\" rx=\"12\"/>");
+SEG.forEach(function(s){
+ H.push("<path d=\""+s[1]+"\" fill=\"none\" stroke=\""+s[0]+"\" stroke-width=\"4.6\" stroke-linecap=\"round\" stroke-opacity=\".16\" transform=\"translate(1.4,1.6)\"/>");
+ H.push("<path d=\""+s[1]+"\" fill=\"none\" stroke=\""+s[0]+"\" stroke-width=\"2.7\" stroke-linecap=\"round\""+(s[2]?" stroke-dasharray=\"6 5\"":"")+"/>");});
+MAP.forEach(function(p){H.push("<circle cx=\""+p[0]+"\" cy=\""+p[1]+"\" r=\"4\" fill=\"#fff\" stroke=\"#3a4152\" stroke-width=\"2\"/>")});
+LB.forEach(function(l){H.push("<text x=\""+l[1]+"\" y=\""+l[2]+"\" font-size=\"10.5\" fill=\"#3a4152\" text-anchor=\"middle\" font-family=\"sans-serif\">"+l[0]+"</text>")});
+NT.forEach(function(n){H.push("<rect x=\""+n[1]+"\" y=\""+(n[2]-11)+"\" width=\"46\" height=\"15\" rx=\"7.5\" fill=\"#F6EFE3\" stroke=\"#E4D3BE\"/>");
+ H.push("<text x=\""+(n[1]+23)+"\" y=\""+(n[2]+0.5)+"\" font-size=\"9.5\" fill=\"#8A5A2B\" text-anchor=\"middle\" font-family=\"sans-serif\">"+n[0]+"</text>")});
+H.push("</svg>");
+H.push("<div class=\"lg\"><span><i style=\"background:#B34A22\"></i>1/20 小松→金泽</span><span><i style=\"background:#C77B2B\"></i>1/23 金泽→白川郷→高山→福地</span><span><i style=\"background:#6E8B5B\"></i>1/24 福地→高山→富山</span><span><i style=\"background:#4E7C9B\"></i>1/25 富山⇄庄川峡</span><span><i style=\"background:#9A8C7C\"></i>1/26 富山→机场</span><span>虚线＝巴士／接驳，实线＝铁路</span></div>");
+H.push("</div></section>");
+
+/* ---------- 3 已确认 ---------- */
+H.push("<section id=\"conf\"><h2>已确认</h2><div class=\"card\">");
+T.conf.forEach(function(c){
+ var tel=c.tel?"<div style=\"margin-top:7px;font-size:13.3px\"><a href=\"tel:"+c.tel+"\">☎ "+esc(c.tel)+"</a></div>":"";
+ H.push("<div class=\"bk\"><div class=\"ti\"><span class=\"k\">"+esc(c.k)+"</span>"+esc(c.t)+"</div><dl>");
+ c.rows.forEach(function(r){H.push("<dt>"+esc(r[0])+"</dt><dd>"+esc(r[1])+"</dd>")});
+ H.push("</dl>"+tel+"</div>");});
+H.push("</div></section>");
+
+/* ---------- 4 逐日 ---------- */
+var TODAY=new Date().toISOString().slice(0,10);
+H.push("<section id=\"days\"><h2>逐日行程</h2>");
+T.days.forEach(function(d){
+ H.push("<div class=\"card day\" data-iso=\""+d.iso+"\" style=\"margin-bottom:10px\">");
+ H.push("<div class=\"hd\"><span class=\"d\">"+d.date+"</span><span class=\"w\">"+d.wd+"</span><span class=\"r\">"+esc(d.place)+"<br>住 "+esc(d.stay)+"</span></div>");
+ H.push("<ol class=\"tl\">");
+ d.items.forEach(function(it){H.push("<li><time>"+esc(it[0])+"</time><span class=\"t\">"+esc(it[1])+tagOf(it[2])+"</span></li>")});
+ H.push("</ol>");
+ H.push("<div class=\"meals\"><span class=\"pill\"><span class=\"lb\">午餐</span>"+esc(d.lunch)+"</span><span class=\"pill g\"><span class=\"lb\">晚餐</span>"+esc(d.dinner)+"</span></div>");
+ H.push("<ul class=\"note\">"+d.notes.map(noteLi).join("")+"</ul>");
+ H.push("</div>");});
+H.push("</section>");
+
+/* ---------- 5 待办 ---------- */
+H.push("<section id=\"todo\"><h2>待办</h2><div class=\"card\"><ol class=\"td\">");
+T.todo.forEach(function(t){H.push("<li><span class=\"wh\">"+esc(t[0])+"</span>"+esc(t[1])+"</li>")});
+H.push("</ol></div></section>");
+
+document.getElementById("app").innerHTML=H.join("");
+
+/* ---------- 导航 ---------- */
+var CH=[["now","此刻"],["map","地图"],["conf","已确认"],["days","逐日"],["todo","待办"]];
+document.getElementById("nav").innerHTML=CH.map(function(c){return "<a href=\"#"+c[0]+"\">"+c[1]+"</a>"}).join("");
+var LK=[].slice.call(document.querySelectorAll("nav a"));
+LK.forEach(function(a){a.addEventListener("click",function(e){e.preventDefault();var t=document.querySelector(a.getAttribute("href"));if(t)t.scrollIntoView({behavior:"smooth",block:"start"})})});
+if("IntersectionObserver" in window){
+ var io=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;
+  LK.forEach(function(a){a.classList.toggle("on",a.getAttribute("href")==="#"+e.target.id)})})},{rootMargin:"-42% 0px -52% 0px"});
+ document.querySelectorAll("main section").forEach(function(s){io.observe(s)});}
+
+/* ---------- 倒计时 ---------- */
+T.days.forEach(function(d){if(d.iso===TODAY){document.querySelectorAll(".day[data-iso=\""+TODAY+"\"]").forEach(function(c){c.classList.add("today")})}});
+function pad(n,w){var s=String(n);while(s.length<w)s="0"+s;return s}
+function tick(){
+ var now=Date.now(),n=null;
+ for(var i=0;i<EV.length;i++){if(EV[i].t>now){n=EV[i];break}}
+ var el=document.getElementById("nx"),m=document.getElementById("nxm"),w=document.getElementById("nxw");
+ if(!n){el.textContent="行程已结束";m.textContent="1/26 21:25 已抵浦东";w.innerHTML="";
+  ["u0","u1","u2","u3"].forEach(function(id){document.getElementById(id).textContent="0"});return}
+ el.textContent=n.it[1].replace(/（.*?）$/,"");
+ m.textContent=n.d.date+" "+n.d.wd+" "+n.it[0]+" · "+n.d.place+" · 住 "+n.d.stay;
+ w.innerHTML="<span><b>当天</b> "+n.d.date+" "+n.d.wd+"</span><span><b>午餐</b> "+esc(n.d.lunch)+"</span><span><b>晚餐</b> "+esc(n.d.dinner)+"</span>";
+ var df=n.t-now;
+ var dd=Math.floor(df/864e5),hh=Math.floor(df%864e5/36e5),mi=Math.floor(df%36e5/6e4),ss=Math.floor(df%6e4/1e3);
+ document.getElementById("u0").textContent=dd;
+ document.getElementById("u1").textContent=pad(hh,2);
+ document.getElementById("u2").textContent=pad(mi,2);
+ document.getElementById("u3").textContent=pad(ss,2);
+ document.getElementById("cd").className=dd===0?"cd min":"cd";
+}
+tick();setInterval(tick,1000);
+
+if("serviceWorker" in navigator){navigator.serviceWorker.register("/sw.js").catch(function(){})}
+</script>
+</body>
+</html>
